@@ -216,6 +216,21 @@ h4 {
     margin-top: 45px;
 }
 
-/**@media screen and (min-width:481px) {
+
+      /**                               /
+     /         TABLET STYLE            /
+    /                               **/
+
+
+@media screen and (min-width:481px) {
     
-}**/
+}
+
+      /**                               /
+     /         DESKTOP STYLE           /
+    /                               **/
+
+
+    @media screen and (min-width:760px) {
+
+    }
