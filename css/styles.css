@@ -31,6 +31,7 @@ h1 {
     font-family: 'Orelega One', cursive;
     color: #C71E56;
     padding-bottom: 8px;
+    text-align: center;
 }
 
 .announcements {
@@ -99,6 +100,44 @@ nav ul li a, .hamburger {
 
 /** END HEADER **/
 
+h2 {
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+    color: #C71E56;
+}
+
+.about-container {
+    margin: 12px 12px 20px 12px;
+}
+
+.container-about-extra {
+    background-color: #F6A6C1;
+    padding: 25px 12px;
+}
+
+.community {
+    margin-bottom: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.resources-and-partnerships {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.rnp-img, .community-img {
+    line-height: 0;
+}
+
+/** END MAIN **/
+
 footer {
     color: #fff;
     background-color: #C71E56;
@@ -142,3 +181,7 @@ h4 {
     font-size: 10px;
     margin-top: 45px;
 }
+
+/**@media screen (min-width:600px) {
+    
+}**/
