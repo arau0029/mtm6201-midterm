@@ -113,6 +113,8 @@ h2 {
     line-height: 20px;
 }
 
+/** ADDITIONAL STYLES FOR ABOUT PAGE**/
+
 .big-h2 {
     font-size: 35px;
     padding-top: 5%;
@@ -169,6 +171,55 @@ h2 {
     align-self: flex-end;
 }
 
+/** ADDITIONAL STYLES FOR FAQ PAGE**/
+
+.faqs-txt {
+    background-color: #F6A6C1;
+    padding: 30px 12px 15px 12px;
+}
+
+.faqs-txt h2 {
+    color: #941640;
+}
+
+.faqs-txt p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    margin: 3px 0 8px 0;
+    border-radius: 25px;
+    border: 1px solid #C71E56;
+}
+
+.full {
+    width: 100%;
+}
+
+.message {
+    margin-bottom: 15px;
+    height: 135px;
+    width: 100%;
+}
+
+form .button {
+    align-self: flex-end;
+}
+
+.faqs-form {
+    padding: 25px 12px 65px 12px;
+}
 
 /** END MAIN **/
 
@@ -214,6 +265,10 @@ h4 {
 .copyright {
     font-size: 10px;
     margin-top: 45px;
+}
+
+input {
+    display: block;
 }
 
 
