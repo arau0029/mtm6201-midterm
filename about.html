@@ -20,14 +20,16 @@
             </div>
             <div class="nav-container">
                 <nav>
-                    <a href="#" class="hamburger"><i class="fa fa-bars"></i></a>    
-                    <img src="images/logo.png" alt="toronto cupcake logo" class="nav-logo hide-mobile">
+                    <a href="#" class="hamburger"><i class="fa fa-bars"></i></a> 
+                    <div class="hide-mobile">
+                        <a href="index.html"><img src="images/logo.png" alt="toronto cupcake logo" class="nav-logo"></a>
+                    </div>
                     <ul class="nav-ul">
                         <!--changed class to .current to style of current active li / gave class 'hide-' so the elements could be hidden on mobile/desktop-->
-                        <li class="home hide-mobile"><a href="#" class="current">Home</a></li>
-                        <li class="about hide-mobile"><a href="#">About</a></li>
+                        <li class="home hide-mobile"><a href="index.html">Home</a></li>
+                        <li class="about hide-mobile"><a href="about.html" class="current">About</a></li>
                         <li class="cupcakes hide-mobile"><a href="#">Cupcakes</a></li>
-                        <li class="faqs hide-mobile"><a href="#">FAQs</a></li>
+                        <li class="faqs hide-mobile"><a href="faqs.html">FAQs</a></li>
                         <li class="contact hide-mobile"><a href="#">Contact</a></li>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
                         <li class="cart"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
@@ -39,37 +41,70 @@
     <main>
         <div class="container">
             <h1>About Us</h1>
-            <section class="about-container">
+            <div class="about-container">
                 <div class="about-img">
-                    <!--Add image-->
+                    <picture>
+                        <source srcset="images/about-2.jpg"
+                            media="(min-width: 605px)" />
+                  
+                        <source srcset="images/about.jpg"
+                            media="(min-width: 320px)" />
+                  
+                        <img src="images/about.jpg" alt="woman that founded toronto cupcake">
+                      </picture>
                 </div>
                 <div class="about-txt">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Id venenatis a condimentum vitae sapien. Viverra vitae congue eu consequat ac felis donec. Proin fermentum leo vel orci. Aliquet risus feugiat in ante metus dictum at tempor. Id aliquet risus feugiat in ante metus dictum at tempor. Lorem dolor sed viverra ipsum nunc aliquet. Porttitor eget dolor morbi non arcu risus quis. Lectus quam id leo in vitae. Lectus proin nibh nisl condimentum id venenatis. Lobortis scelerisque fermentum dui faucibus in ornare.</p>
                     <p>Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nisi lacus sed viverra tellus. Elementum tempus egestas sed sed. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Pellentesque habitant morbi tristique senectus et. Congue eu consequat ac felis donec et. Duis ut diam quam nulla porttitor massa id. Ultricies leo integer malesuada nunc vel risus commodo. Id eu nisl nunc mi. Risus nullam eget felis eget nunc lobortis mattis aliquam. Mattis molestie a iaculis at. Elementum nibh tellus molestie nunc non blandit. Dui accumsan sit amet nulla facilisi.</p>
                     <p>Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Id diam vel quam elementum pulvinar etiam non quam lacus. In egestas erat imperdiet sed euismod nisi porta. Condimentum id venenatis a condimentum vitae sapien pellentesque. Mi eget mauris pharetra et ultrices neque. Tellus orci ac auctor augue mauris augue neque. Faucibus nisl tincidunt eget nullam.</p>
                 </div>
-            </section>
+            </div>
             <div class="container-about-extra">
                 <section class="community">
                     <div class="community-img">
-                        <!--DO THE IMAGE RESPIONSIVE THINGIE-->
-                        <img src="images/olivia-herlambang-tham-8lDEn_W-WAA-unsplash.jpg" alt="" width="181px">
+                        <picture>
+                            <source srcset="images/community.jpg"
+                            media="(min-width: 920px)" />
+
+                            <source srcset="images/community-2.jpg"
+                                media="(min-width: 605px)" />
+                      
+                            <source srcset="images/community.jpg"
+                                media="(min-width: 320px)" />
+                      
+                            <img src="images/community.jpg" alt="rainbow-themed cupcakes" class="section-img">
+                          </picture>
+
                     </div>
                     <div class="community-txt">
-                        <h2>Community</h2>
-                        <p class="hide-mobile">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim veeniam, quis nostruklad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in tufpoy voluptate velit esse cillum dolore eu fugiat nulla parieratur. Excepteur sint occaecat cupidatat.</p>
-                        <button type="button" class="button">Learn More <span>&gt;</span></button>
+                        <div>
+                            <h2 class="big-h2 h2-community">Community</h2>
+                            <p class="hide-mobile">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim veeniam, quis nostruklad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in tufpoy voluptate velit esse cillum dolore eu fugiat nulla parieratur. Excepteur sint occaecat cupidatat.</p>
+                        </div>
+                        <button type="button" class="button smaller-b"><span class="hide-mobile">Learn</span> More <span>&gt;</span></button>
                     </div>
                 </section>
                 <section class="resources-and-partnerships">
                     <div class="rnp-img">
-                        <!--DO THE IMAGE RESPIONSIVE THINGIE-->
-                        <img src="images/ibrahim-boran-aoGA9N8QNrI-unsplash.jpg" alt="" width="181px">
+                        <picture>
+                            <source srcset="images/rnp.jpg"
+                            media="(min-width: 920px)" />
+
+                            <source srcset="images/rnp-2.jpg"
+                                media="(min-width: 605px)" />
+                      
+                            <source srcset="images/rnp.jpg"
+                                media="(min-width: 320px)" />
+                      
+                            <img src="images/rnp.jpg" alt="brunch table" class="section-img">
+                          </picture>
                     </div>
                     <div class="rnp-txt">
-                        <h2>Resources and partnerships</h2>
-                        <p class="hide-mobile">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim veeniam, quis nostruklad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in tufpoy voluptate velit esse cillum dolore eu fugiat nulla parieratur. Excepteur sint occaecat cupidatat.</p>
-                        <button type="button" class="button">Learn More <span>&gt;</span></button>
+                        <div>
+                            <h2 class="big-h2">Resources and partnerships</h2>
+                            <p class="hide-mobile">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim veeniam, quis nostruklad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in tufpoy voluptate velit esse cillum dolore eu fugiat nulla parieratur. Excepteur sint occaecat cupidatat.</p>
+                        </div>
+                        <button type="button" class="button smaller-b"><span class="hide-mobile">Learn</span> More <span>&gt;</span></button>
                     </div>
                 </section>
             </div>
