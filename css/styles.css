@@ -138,6 +138,11 @@ h2 {
     margin: 12px 12px 20px 12px;
 }
 
+.about-img img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 .container-about-extra {
     background-color: #F6A6C1;
     padding: 25px 12px;
@@ -171,7 +176,7 @@ h2 {
 .community-txt, .rnp-txt {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px;
     text-align: center;
 }
@@ -304,6 +309,7 @@ input {
 
     h1 {
         font-size: 48px;
+        margin-top: 25px;
     }
 
     h2 {
@@ -353,6 +359,36 @@ input {
         font-size: 30px;
     }
 
+
+    /** ADDITIONAL STYLES ABOUT **/
+
+    .about-container {
+        margin: 35px 40px 40px 40px;
+    }
+
+    .container-about-extra {
+        padding: 20px 40px;
+    }
+
+    .community-txt, .rnp-txt {
+        text-align: left;
+        width: 1600px;
+    }
+
+    .big-h2 {
+        font-size: 42px;
+        line-height: 30px;
+    }
+
+    .h2-community {
+        padding-top: 5%;
+    }
+
+    .about-img img {
+        float: left;
+        width: 45%;
+        margin: 0 20px 12.5px 0;
+    }
     /** ADDITIONAL STYLES FAQS **/
 
     .faqs-txt {
@@ -458,10 +494,49 @@ input {
 
         /**END HEADER **/
 
-        main {
-            margin: 0 10%;
+        .container-main-faq {
+            padding: 0 10%;
         }
 
+        /** ADDITIONAL STYLES ABOUT **/
+        .about-container {
+            margin: 0 10% 65px;
+        }
+
+        .about-img {
+            margin: 0 40px 40px 0;
+        }
+
+        .container-about-extra {
+            padding: 50px 10%;
+        }
+
+        .community-txt, .rnp-txt {
+            text-align: left;
+            width: 3000px;
+        }
+
+        .community-img, .rnp-img {
+            width: 4000px;
+        }
+        
+        .community {
+            margin-bottom: 50px;
+        }
+
+        .big-h2 {
+            font-size: 46px;
+        }
+
+        .h2-community {
+            padding-top: 5%;
+        }
+
+        .about-img img {
+            float: left;
+            width: 45%;
+            margin: 0 20px 12.5px 0;
+        }
         /** ADDITIONAL STYLES FAQS **/
 
         .faqs-container {
