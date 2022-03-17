@@ -21,13 +21,15 @@
             <div class="nav-container">
                 <nav>
                     <a href="#" class="hamburger"><i class="fa fa-bars"></i></a>    
-                    <img src="images/logo.png" alt="toronto cupcake logo" class="nav-logo hide-mobile">
+                    <div class="hide-mobile">
+                        <a href="index.html"><img src="images/logo.png" alt="toronto cupcake logo" class="nav-logo"></a>
+                    </div>
                     <ul class="nav-ul">
                         <!--changed class to .current to style of current active li / gave class 'hide-' so the elements could be hidden on mobile/desktop-->
-                        <li class="home hide-mobile"><a href="#" class="current">Home</a></li>
-                        <li class="about hide-mobile"><a href="#">About</a></li>
+                        <li class="home hide-mobile"><a href="index.html">Home</a></li>
+                        <li class="about hide-mobile"><a href="about.html">About</a></li>
                         <li class="cupcakes hide-mobile"><a href="#">Cupcakes</a></li>
-                        <li class="faqs hide-mobile"><a href="#">FAQs</a></li>
+                        <li class="faqs hide-mobile"><a href="faqs.html" class="current">FAQs</a></li>
                         <li class="contact hide-mobile"><a href="#">Contact</a></li>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
                         <li class="cart"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
@@ -37,7 +39,7 @@
         </div>
     </header>
     <main>
-        <div class="container">
+        <div class="container-main-faq">
             <h1>FAQs</h1>
             <div class="faqs-container">
                 <div class="faqs-txt">
