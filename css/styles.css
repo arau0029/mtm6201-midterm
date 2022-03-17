@@ -30,6 +30,11 @@ header {
     background-color: #C71E56;
 }
 
+.current {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 h1 {
     font-size: 32px;
     font-family: 'Orelega One', cursive;
@@ -66,10 +71,15 @@ nav ul li a, .hamburger {
     font-family: 'Dongle', sans-serif;
     font-size: 20px;
     text-decoration: none;
+    text-transform: uppercase;
     color: #941640;
     display: block;
     padding-top: 7.5px;
     padding-bottom: 2.5px;
+}
+
+a:hover {
+    color: #F91660;
 }
 
 .nav-ul {
@@ -278,15 +288,228 @@ input {
     /                               **/
 
 
-@media screen and (min-width:481px) {
+@media screen and (min-width: 605px) {
+ 
+    .hide-mobile {
+        display: contents;
+    }
     
+    .hide-desktop {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .announcements  p {
+        font-size: 20px;
+        padding: 8px 0;
+    }
+    
+    .button {
+        font-size: 16px;
+        padding: 8px 25px;
+    }
+
+    .cart {
+        background-color: #F91660;
+        border-radius: 50%;
+        padding: 5px 17px;
+    }
+
+    .cart:hover {
+        background-color: #C71E56;
+    }
+
+    .fa-shopping-cart {
+        color: #fff;
+    }
+
+    .nav-ul {
+        width: 100%;
+    }
+    
+    .nav-logo {
+        width: 60px;
+        margin: 5px 20px;
+        padding-right: 25px;
+    }
+    
+    nav ul li a {
+        font-size: 30px;
+    }
+
+    /** ADDITIONAL STYLES FAQS **/
+
+    .faqs-txt {
+        padding: 30px 40px 30px 40px;
+    }
+    
+    .faqs-txt p {
+        margin-bottom: 20px;
+    }
+    
+    form {
+        margin-top: 45px;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    input {
+        height: 37px;
+        margin: 3px 0 8px 0;
+        border-radius: 25px;
+        border: 1.5px solid #C71E56;
+    }
+    
+    .full {
+        width: 100%;
+    }
+    
+    .message {
+        height: 256px;
+        width: 100%;
+    }
+    
+    .faqs-form {
+        padding: 40px 40px 90px 40px;
+    }
+
+    footer {
+        font-size: 16px;
+        padding: 40px 40px 30px 40px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .footer-policy {
+        margin: 0;
+        text-align: left;
+    }
+
+    .footer-contact {
+        text-align: end;
+    }
+
 }
+
 
       /**                               /
      /         DESKTOP STYLE           /
     /                               **/
 
 
-    @media screen and (min-width:760px) {
+    @media screen and (min-width:920px) {
 
-    }
+        h1 {
+            font-size: 58px;
+        }
+
+        h2 {
+            font-size: 46px;
+            line-height: 32px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .announcements  p {
+            font-size: 26px;
+            padding: 12px 0;
+        }
+
+        .button {
+            font-size: 18px;
+            padding: 10px 30px;
+        }
+
+        .nav-logo {
+            width: 98px;
+            margin: 15px 40px;
+            padding-right: 25px;
+        }
+
+        .nav-ul {
+            margin-right: 40px;
+            width: 60%;
+        }
+
+        nav ul li a {
+            font-size: 46px;
+        }
+
+        /**END HEADER **/
+
+        main {
+            margin: 0 10%;
+        }
+
+        /** ADDITIONAL STYLES FAQS **/
+
+        .faqs-container {
+            margin-bottom: 98px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between
+        }
+
+        .faqs-txt {
+            background-color: #fff;
+            padding: 30px 12px 15px 12px;
+            width: 47.5%;
+        }
+        
+        .faqs-txt h2 {
+            color: #C71E56;
+        }
+        
+        .faqs-txt p {
+            margin-bottom: 20px;
+        }
+        
+        form {
+            margin-top: 45px;
+        }
+        
+        label {
+            font-size: 18px;
+        }
+        
+        input {
+            height: 43px;
+            margin: 5px 0 10px 0;
+        }
+        
+        .full {
+            width: 100%;
+        }
+        
+        .message {
+            height: 297px;
+            width: 100%;
+        }
+        
+        .faqs-form {
+            width: 47.5%;
+            padding: 25px 12px 65px 12px;
+        }
+
+        }
