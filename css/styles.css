@@ -17,6 +17,7 @@ header {
 }
 
 .button {
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
@@ -92,15 +93,17 @@ a:hover {
 }
 
 .intro {
-    /** FIX IMAGE SIZEbackground-image: url(../images/banner.jpg);
- **/
- text-align: center;
+    background-image: url(../images/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
 }
 
 .intro-container {
     margin: 20px 35px;
     padding: 20px 27px;
-    background-color: aqua;
+    background-color: rgba(255, 255, 255, 0.65);
 }
 
 .banner-logo {
@@ -359,6 +362,41 @@ input {
         font-size: 30px;
     }
 
+    /** ADDITIONAL STYLES HOMEPAGE **/
+
+    .intro {
+        background-image: url(../images/banner-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .intro-container {
+        margin: 0px 40px;
+        padding: 100px 0 20px 0;
+        text-align: left;
+        background-color: transparent;
+    }
+
+    .intro-container p {
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .banner-button {
+        font-size: 26px;
+    }
+
+    .container-button {
+        text-align: right;
+        margin: 0px 40px;
+    }
+
+    .h1-header {
+        font-size: 80px;
+        margin: 0;
+        text-align: left;
+    }
 
     /** ADDITIONAL STYLES ABOUT **/
 
@@ -498,13 +536,58 @@ input {
             padding: 0 10%;
         }
 
+            /** ADDITIONAL STYLES HOMEPAGE **/
+
+    .intro {
+        background-image: url(../images/banner.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .intro-container {
+        margin: 0px 8%;
+        padding: 200px 0 225px 0;
+        text-align: left;
+        background-color: transparent;
+    }
+
+    .intro-container p {
+        font-size: 26px;
+        line-height: 39px;
+        width: 50%;
+    }
+
+    .banner-button {
+        font-size: 26px;
+        border-radius: 50px;
+        
+    }
+
+    .container-button {
+        text-align: left;
+        margin: 40px 0 0 0;
+    }
+
+    .h1-header {
+        font-size: 100px;
+        margin: 0;
+        text-align: left;
+    }
+
         /** ADDITIONAL STYLES ABOUT **/
         .about-container {
             margin: 0 10% 65px;
+            padding-bottom: 15%;
         }
 
         .about-img {
             margin: 0 40px 40px 0;
+        }
+
+        .about-img img {
+            max-width: 590px;
         }
 
         .container-about-extra {
